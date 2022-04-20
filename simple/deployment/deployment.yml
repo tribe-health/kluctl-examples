@@ -1,4 +1,6 @@
 deployments:
   - path: nginx
+  - barrier: true
+  - path: nginx2
 
 overrideNamespace: "{{ args.environment }}"
