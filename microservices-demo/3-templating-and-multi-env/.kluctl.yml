@@ -7,7 +7,7 @@ targets:
     context: kind-kind
     args:
       env_type: real
-  - name: prod
-    context: kind-kind
-    args:
-      env_type: real
+  #- name: prod
+  #  context: kind-kind
+  #  args:
+  #    env_type: real
