@@ -3,11 +3,11 @@ targets:
     context: kind-kind
     args:
       env_type: local
-  #- name: test
-  #  context: kind-kind
-  #  args:
-  #    env_type: real
-  #- name: prod
-  #  context: kind-kind
-  #  args:
-  #    env_type: real
+  - name: test
+    context: kind-kind
+    args:
+      env_type: real
+  - name: prod
+    context: kind-kind
+    args:
+      env_type: real
